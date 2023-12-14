@@ -43,3 +43,15 @@ console.log(typeof anotherId);
 //Boolean =>Boolean
 //Number =>Number
 //String=>String
+
+//------------------------------------------------------
+//stack(primitive) ,heap(non-primitive)
+let name ="pam"
+let name2 = name
+name2= "pam2"
+console.log(name) //pam
+console.log(name2); //pam2
+
+//heap madhe reference bhetato
+//stack madhe copy of original one
+
