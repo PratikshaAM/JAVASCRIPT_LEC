@@ -44,14 +44,14 @@ const myObject = {
 //can be used for iteration of map
  
 //--------------------FOR IN LOOP-------------------------------
-const myObject = {
+const myObject1 = {
     js: 'javascript',
     cpp: 'C++',
     rb: "ruby",
     swift: "swift by apple"
 }
 
-for (const key in myObject) {
+for (const key in myObject1) {
     //console.log(`${key} shortcut is for ${myObject[key]}`);
 }
 
